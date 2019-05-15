@@ -153,7 +153,9 @@ model = {
     '2': SVM,
     '3': SVM_tfidf,
     '4': rm,
-    '5': rm_tfidf
+    '5': rm_tfidf,
+    '6': logistic,
+    '7': logistic_tfidf
 }
 
 feature = {
@@ -162,7 +164,9 @@ feature = {
     '2': vectorizer,
     '3': tfidf_vect,
     '4': vectorizer,
-    '5': tfidf_vect
+    '5': tfidf_vect,
+    '6': vectorizer,
+    '7': tfidf_vect
 }
 
 type_model = ''
