@@ -58,7 +58,7 @@ X_tfidf = tfidf_vect.fit_transform(df_train['text'].values.astype('U')).toarray(
 
 Encoder = LabelEncoder()
 
-scoring = ['precision_macro', 'recall_macro', 'f1_macro', 'accuracy']
+scoring = ['precision', 'recall', 'f1_macro', 'accuracy']
 
 # y_train = Encoder.fit_transform(y_train)
 # y_test = Encoder.fit_transform(y_test)
